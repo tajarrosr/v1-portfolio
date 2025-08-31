@@ -1,100 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ritchmond Tajarros</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-</head>
-<body>
-  <nav>
-    <a href="index.html" class="logo-title">𝓡𝓲𝓽𝓬𝓱𝓶𝓸𝓷𝓭</a>
-    <div class="menu-toggle" id="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
-    <ul id="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Project</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ritchmond Tajarros - Web Developer</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo-title">𝓡𝓲𝓽𝓬𝓱𝓶𝓸𝓷𝓭</a>
 
-  <header>
-    <img src="images/pic2.jpg" alt="Ritchmond Tajarros" />
-    <div class="header-content">
-      <h1>Ritchmond James Tajarros</h1>
-      <p>Web Developer</p>
-    </div>
-  </header>
+      <button class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
 
-  <main>
+      <ul id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="fade-in-up">Ritchmond James Tajarros</h1>
+          <p class="subtitle fade-in-up">Web Developer</p>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/pic2.jpg" alt="Ritchmond Tajarros - Web Developer" />
+        </div>
+      </div>
+    </section>
+
     <section id="about">
-      <h1>About Me</h1>
-      <p>
-        I'm a Computer Science student from Pamantasan ng Lungsod ng Pasig
-        with interest in real-world web development. I'm currently focused on
-        web development and continuously exploring ways to grow as a developer.
-      </p>
-      <p>
-        When I'm not coding, I usually spend my free time playing online games
-        or watching shows. Stepping away from the screen helps refresh and
-        balance life and work.
-      </p>
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          Get to know more about my background and journey in web development
+        </p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a Computer Science student from Pamantasan ng Lungsod ng Pasig
+            with interest in real-world web development. I'm currently focused
+            on web development and continuously exploring ways to grow as a
+            developer. I enjoy front-end development for its focus on user
+            experience and designing clean, user-friendly interfaces.
+          </p>
+
+          <p>
+            When I'm not coding, I usually spend my free time playing online
+            games or watching shows. Stepping away from the screen helps refresh
+            and balance life and work.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
-      <h1>Skills</h1>
-      <ul>
-        <li>HTML & CSS</li>
-        <li>Git & GitHub</li>
-        <li>JavaScript</li>
-        <li>Figma</li>
-        <li>MySQL</li>
-        <li>Notion</li>
-      </ul>
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-subtitle">
+          The tools and technologies I use to bring ideas to life
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill-name">HTML & CSS</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="skill-name">JavaScript</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div class="skill-name">Git & GitHub</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-figma"></i>
+          </div>
+          <div class="skill-name">Figma</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill-name">MySQL</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="skill-name">Notion</div>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
-      <h1>Project</h1>
+      <div class="section-header">
+        <h2 class="section-title">Project</h2>
+        <p class="section-subtitle">A showcase of my work</p>
+      </div>
+
       <div class="project-card">
-        <img src="images/tee_vibes.png" alt="Tee Vibes Project Preview" class="project-img" />
-        <div class="project-info">
-          <h2>Tee Vibes</h2>
-          <p class="tech-stack"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-          <p>
-            A clothing brand project blending style, comfort, and positivity. 
-            Eco-friendly and designed with affirmations.
+        <div class="project-image">
+          <img
+            src="images/tee_vibes.png"
+            alt="Tee Vibes - E-commerce Clothing Website"
+          />
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">Tee Vibes</h3>
+          <p class="project-tech">HTML • CSS • JavaScript</p>
+
+          <p class="project-description">
+            A final group project on Web Development Programming. Tee Vibes is a
+            clothing brand that blends style, comfort, and positivity. We offer
+            high-quality shirts designed with affirmations and eco-friendly
+            materials. Our mission: "Wear Tee Vibes, Spread Good Vibes."
           </p>
-          <p>Role: Front-end Developer</p>
-          <a href="https://github.com/tajarrosr/Tee-Vibes" target="_blank" class="btn">
-            Source Code<span>&#10230</span>
-          </a>
-          <a href="https://tee-vibes.vercel.app/" target="_blank" class="btn live">
-            Live Demo<span>&#10230</span>
-          </a>
+
+          <div class="project-contributions">
+            <h4>My Contribution</h4>
+            <ul>
+              <li>
+                Developed the homepage with engaging hero section and product
+                showcase
+              </li>
+              <li>
+                Created the apparel/product details page with interactive
+                features
+              </li>
+              <li>
+                Built the shopping cart page with add/remove functionality
+              </li>
+              <li>
+                Made the entire website fully responsive across all devices
+              </li>
+            </ul>
+          </div>
+
+          <p><strong>Role:</strong> Front-end Developer</p>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/tajarrosr/Tee-Vibes"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+            <a
+              href="https://tee-vibes.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Live Demo
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contact">
-      <h1>Contact</h1>
-      <p>If you'd like to get in touch, you can reach me through:</p>
-      <div class="contact-links">
-        <a href="https://github.com/tajarrosr" target="_blank"><i class="fab fa-github"></i> Github</a>
-        <a href="https://www.linkedin.com/in/tajarrosrj"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://www.facebook.com/RitchmondTajarros"><i class="fab fa-facebook"></i> Facebook</a>
-        <a href="mailto:tajarrosrj@gmail.com"><i class="fas fa-envelope"></i> Gmail</a>
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Get in touch with me through these platforms
+        </p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>If you'd like to get in touch, you can reach me through:</p>
+
+          <div class="contact-links">
+            <a
+              href="https://github.com/tajarrosr"
+              target="_blank"
+              class="contact-link"
+            >
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/tajarrosrj"
+              target="_blank"
+              class="contact-link"
+            >
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://www.facebook.com/RitchmondTajarros"
+              target="_blank"
+              class="contact-link"
+            >
+              <i class="fab fa-facebook"></i>
+              <span>Facebook</span>
+            </a>
+            <a href="mailto:tajarrosrj@gmail.com" class="contact-link">
+              <i class="fas fa-envelope"></i>
+              <span>Gmail</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2023 Ritchmond Tajarros. All rights reserved.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2023 Ritchmond Tajarros. All rights reserved.</p>
+    </footer>
 
-  <script src="js/main.js"></script>
-</body>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
